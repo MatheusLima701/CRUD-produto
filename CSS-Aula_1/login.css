@@ -1,0 +1,70 @@
+
+/* 
+    TAG (button, body, a, p)
+    Classe (.titulo .grupo)
+    Id (#btn-entrar)
+    Seletor (Tudo junto e misturado)
+*/
+
+.caixa-login{
+    width: 250px;
+    margin: auto;
+    border: 2px solid #ddd;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+label{ 
+    font-size: 14px;
+}
+
+input,
+#btn-entrar {
+    width:  100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+#btn-entrar{
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+#btn-entrar:hover{
+    background-color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.grupo{
+    margin-top: 10px;
+}
+
+.esqueci-minha-senha a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.esqueci-minha-senha{
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#loading{
+    display: none;
+}

@@ -1,0 +1,4 @@
+/* Sobreescrevendo o bootstrap */
+.modal-dialog{
+    max-width: 780px;
+}
